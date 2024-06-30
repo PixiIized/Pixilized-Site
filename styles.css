@@ -1,0 +1,36 @@
+html {
+    background-color: #260d1c;
+    font-family: "Retro Pixel Thick";
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #e4dbba;
+    font-size: 30px;
+    text-align: center
+}
+
+nav {
+    background-color: #4f3a54;
+    position: sticky;
+    top: 0;
+}
+
+#banner {
+    width: 100%;
+}
+
+#footnote {
+    font-size: 15px;
+}
+
+a {
+    color: #a4929a;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: "Retro Pixel Thick";
+    src: url(./assets/retro-pixel-thick.ttf);
+}
