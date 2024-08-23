@@ -1,36 +1,94 @@
+/* Basic styling */
 html {
-    background-color: #260d1c;
-    font-family: "Retro Pixel Thick";
+    background-color: #e3cfb4;
+    font-family: "Narrator";
 }
 
 body {
     margin: 0;
-    padding: 0;
-    color: #e4dbba;
-    font-size: 30px;
-    text-align: center
+    color: #624c3c;
+    font-size: 48px;
+    text-align: justify;
 }
 
+#text {
+    padding-left: 144px;
+    padding-right: 96px;
+}
+
+/* Navbar */
 nav {
-    background-color: #4f3a54;
+    text-align: center;
+    background-color: #243d5c;
     position: sticky;
     top: 0;
+    font-size: 48px;
+    height: 48px;
 }
 
+nav a {
+    text-align: center;
+    padding: 200%, 200%;
+    padding-top: 2px;
+    padding-bottom: 11px;
+    padding-left: 11px;
+    padding-right: 8px;
+    color: #5c8b93;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #e3cfb4;
+    background-color: #5c8b93;
+}
+
+nav a.active {
+    color: #e3cfb4;
+    background-color: #624c3c;
+}
+
+/* Banner */
 #banner {
     width: 100%;
 }
 
-#footnote {
-    font-size: 15px;
+/* Footer */
+#footer {
+    width: 100%;
+    display: block;
+    position: absolute;
+    margin-bottom: 0px;
 }
 
-a {
-    color: #a4929a;
-    text-decoration: none;
+footer {
+    width: 100%;
+    display: block;
+    position: absolute;
+    margin-bottom: 0px;
 }
 
+/* Styling */
+.large {
+    font-size: 96px;
+    color: #243d5c;
+}
+
+.divider {
+    height: 8px;
+    color: #b03a48;
+    background-color: #b03a48;
+    border-style: none;
+    border-radius: 4px;
+}
+
+.blue {
+    color: #5c8b93;
+}
+
+/* Rules */
 @font-face {
     font-family: "Retro Pixel Thick";
     src: url(./assets/retro-pixel-thick.ttf);
+    font-family: "Narrator";
+    src: url(./assets/Narrator.ttf);
 }
