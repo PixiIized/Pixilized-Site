@@ -73,6 +73,11 @@ footer {
     color: #243d5c;
 }
 
+.small {
+    font-size: 32px;
+    color: #d4804d;
+}
+
 .divider {
     height: 8px;
     color: #b03a48;
@@ -83,6 +88,44 @@ footer {
 
 .blue {
     color: #5c8b93;
+}
+
+/* Projects */
+#content {
+    padding-right: 96px;
+    display: flex;
+    margin-top: -50px;
+}
+
+#content img {
+    padding-left: 144px;
+    display: block;
+    width: 35%;
+    height: 35%;
+    margin-top: 25px;
+}
+
+#content p {
+    padding-left: 32px;
+    margin: 0;
+}
+
+/* Art */
+#iframe {
+    text-align: center;
+}
+
+/* Contact */
+#meower {
+    border-style: none;
+    width: 60%;
+    height: 500px;
+}
+
+.blog {
+    text-decoration: none;
+    color: #243d5c;
+    font-size: 64px;
 }
 
 /* Rules */
